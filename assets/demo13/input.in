@@ -1,0 +1,15 @@
+system_type = LINEAR_STEADY
+scm_type = NONE
+
+n_field = 2
+Q_a = 2
+Q_f = 1
+Nmax = 4
+n_parameters = 1
+mu0_min = 0.1
+mu0_max = 10
+n_outputs = 1
+
+SCM_M = 0
+title = 'Composite unit cell'
+param0_label = E

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="right">
+        
+    <ScrollView
+		android:id="@+id/scrollview"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="1">
+		
+		<TextView
+        android:id="@+id/rb_solve_output"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+        
+	</ScrollView>
+	
+	<TableLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:stretchColumns="1">
+	
+	   	<TableRow>
+	   	<Button
+	        android:id="@+id/steadyVisButton"
+	        android:layout_height="wrap_content"
+	       	android:layout_width="wrap_content"
+	        android:text="@string/visString" />
+	        
+	    <TextView />
+	        
+	    <Button
+	        android:id="@+id/okButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/okString"/>
+
+	    </TableRow>
+	</TableLayout>	
+
+
+
+</LinearLayout>
+
+

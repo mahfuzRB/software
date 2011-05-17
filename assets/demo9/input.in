@@ -1,0 +1,26 @@
+system_type = LINEAR_UNSTEADY
+scm_type = NONE
+
+n_field = 1
+
+n_parameters = 2
+mu0_min = 1
+mu0_max = 10
+mu1_min = 5
+mu1_max = 20
+
+param0_label = Bi
+param1_label = k_FRP
+
+SCM_M = 0
+
+dt = 2.e-4
+K = 100
+gamma = 1 
+
+apply_temporal_filter_flag = 1
+filter_width = 2.
+n_plotting_steps = 95
+
+title = 'FRP'
+

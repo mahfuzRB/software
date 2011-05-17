@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/plot_info"
+          android:title="Plot Info" />
+    <item android:id="@+id/change_axes"
+          android:title="Adjust Axes" />
+    <item android:id="@+id/en_dis_plots"
+          android:title="Enable/Disable Plots" />
+    <item android:id="@+id/on_touch"
+    	  android:title="Set on Touch Behavior" />
+</menu>
+

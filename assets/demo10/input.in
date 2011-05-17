@@ -1,0 +1,25 @@
+system_type = LINEAR_UNSTEADY
+scm_type = NONE
+
+n_field = 1
+
+n_parameters = 2
+mu0_min = 0.4
+mu0_max = 2.5
+mu1_min = 20.0
+mu1_max = 50.0
+
+SCM_M = 0
+
+dt = 0.00145
+K = 106
+gamma = 1
+
+apply_temporal_filter_flag = 1
+filter_width = 5.
+n_plotting_steps = 95
+
+title = 'MICA'
+
+param0_label = d
+param1_label = k_Ag

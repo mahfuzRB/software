@@ -1,0 +1,18 @@
+system_type = LINEAR_STEADY
+scm_type = COERCIVE
+
+n_field = 2
+Q_a = 9
+Q_f = 3
+Nmax = 25
+n_parameters = 2
+mu0_min = 0.1
+mu0_max = 0.5
+mu1_min = 3.5
+mu1_max = 4.5
+n_outputs = 1
+
+SCM_M = 16
+title = 'Pillar Crack'
+param0_label = Length
+param1_label = Vertical

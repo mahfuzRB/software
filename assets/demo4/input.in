@@ -1,0 +1,16 @@
+system_type = LINEAR_COMPLEX_STEADY
+scm_type = NONE
+
+field_type = COMPLEX
+
+n_field = 1
+Q_a = 8
+Q_f = 1
+Nmax = 23
+n_parameters = 1
+mu0_min = 0
+mu0_max = 2
+n_outputs = 1
+
+title = 'Horn'
+param0_label = k

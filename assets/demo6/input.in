@@ -1,0 +1,13 @@
+system_type = LINEAR_UNSTEADY
+scm_type = NONE
+
+K = 100
+dt = 0.01
+euler_theta = 1
+
+n_field = 1
+n_parameters = 2
+mu0_min = 0
+mu0_max = 2
+mu1_min = 0
+mu1_max = 2

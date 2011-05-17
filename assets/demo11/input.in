@@ -1,0 +1,24 @@
+system_type = QN_UNSTEADY
+scm_type = NONE # QN_TRANSIENT_SCM rho is uniformly positive!
+
+K = 100
+dt = 0.0025
+euler_theta = 0.5
+
+n_field = 3
+n_parameters = 1
+mu0_min = 100
+mu0_max = 700
+
+nonlinear_tolerance = 1.e-8
+n_newton_step = 15
+
+nominal_rho_min = 0
+nominal_rho_max = 0
+
+n_SCM_parameters = 2
+SCM_M = 1000
+SCM_theta_c_scaling = 2
+
+title = Navier-Stokes
+param0_label = Forcing

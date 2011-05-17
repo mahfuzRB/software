@@ -1,0 +1,16 @@
+system_type = LINEAR_COMPLEX_STEADY
+scm_type = NONE
+
+field_type = COMPLEX
+
+n_field = 1
+Q_a = 37
+Q_f = 1
+Nmax = 10
+n_parameters = 2
+mu0_min = 0.5236
+mu0_max = 1.0472
+mu1_min = 9
+mu1_max = 9
+n_outputs = 1
+

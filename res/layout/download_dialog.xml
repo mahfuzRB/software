@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10px">
+        
+    <TextView
+        android:id="@+id/enterURLLabel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enterURLLabel"/>
+    	
+    <EditText
+        android:id="@+id/urlEntry"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@android:drawable/editbox_background"
+        android:text="@string/defaultURL"/>
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:orientation="horizontal"
+    	android:gravity="right">
+
+	    <Button
+	        android:id="@+id/downloadButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/downloadString" />
+	        
+	    <Button
+	        android:id="@+id/quitDownloadButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Cancel" />
+	</LinearLayout>
+
+</LinearLayout>
+
+

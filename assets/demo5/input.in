@@ -1,0 +1,20 @@
+system_type = LINEAR_COMPLEX_STEADY
+scm_type = NONE
+
+field_type = COMPLEX
+
+n_field = 1
+Q_a = 4
+Q_f = 1
+
+n_parameters = 3
+mu0_min = 1
+mu0_max = 4
+mu1_min = 0
+mu1_max = 1
+mu2_min = 1
+mu2_max = 2
+
+param0_label = Z_r
+param1_label = Z_i
+param2_label = k

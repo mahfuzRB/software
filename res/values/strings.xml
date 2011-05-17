@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">rbAPPmit</string>
+    <string name="output_plotter_name">Output Plotter</string>
+    <string name="welcomeString">rbAPPmit</string>
+    <string name="enterURLLabel">Enter the URL of the Offline data for your PDE:</string>
+    <string name="downloadString">Download data</string>
+    <string name="quitString">Quit</string>
+    <string name="chooseNLabel">Set RB dimension</string>
+    <string name="chooseParamLabel">Set parameters</string>
+    <string name="solveString">Solve</string>
+    <string name="cancelString">Cancel</string>
+    <string name="backString">Back</string>
+    <string name="visString">Visualize</string>
+    <string name="onlineNString">Number of basis functions:   </string>
+    <string name="okString">OK</string>
+    <string name="defaultURL">http://web.mit.edu/huynh/Public/Java/</string>  
+    <!-- link is not working -->
+</resources>

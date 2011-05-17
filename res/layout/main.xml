@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="1">
+	    
+	<TextView android:id="@+id/problemTitle"
+		android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        />   
+    
+    <View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="@color/grey"
+		/>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseNLabel"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+    />
+
+	<SeekBar android:id="@+id/onlineNSeekbar"
+	       	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	       	android:paddingBottom="10px"
+	       	android:paddingRight="10px"
+	       	android:paddingLeft="10px"
+	/>
+	
+	<TextView
+		android:id="@+id/currentOnlineN"
+        android:layout_width="wrap_content"
+        android:layout_height="30sp"
+        android:textSize="15sp"
+    />
+	
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="@color/grey"
+	/>
+	
+	<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chooseParamLabel"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+    />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        
+			<!-- Place holder for parameter SeekBars -->
+	        <TableLayout
+	        	android:id="@+id/paramLayout"
+		  		android:layout_width="wrap_content"
+		  		android:layout_height="wrap_content"
+		  		android:stretchColumns="1"/>
+
+	</ScrollView>
+	
+  	<!-- Horizontal separator -->
+    <View
+		android:layout_width="fill_parent"
+		android:layout_height="1px"
+		android:background="@color/grey"
+	/>
+	
+	<!-- Some extra space between separator and Solve button-->
+	<View
+		android:layout_width="fill_parent"
+		android:layout_height="5px"
+	/>
+	
+	<TableLayout
+	  android:layout_width="fill_parent"
+	  android:layout_height="wrap_content"
+	  android:stretchColumns="1">
+	
+	   	<TableRow>
+		<Button
+	        android:id="@+id/solveButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="22sp"
+	        android:text="@string/solveString" />
+	        
+	    <TextView />
+	    
+		<LinearLayout android:id="@+id/sweepButtonHolder"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical" />
+
+	    </TableRow>
+	</TableLayout>	
+
+</LinearLayout>
