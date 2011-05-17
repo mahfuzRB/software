@@ -43,7 +43,7 @@ import android.widget.TextView;
 //to download data
 public class ProbSelectionActivity extends Activity {
 
-// Activity ID
+// Activity ID (it starts from 0)
 public static final int DEMO_1 = 0;
 public static final int DEMO_2 = 1;
 public static final int DEMO_3 = 2;

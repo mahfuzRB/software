@@ -240,7 +240,8 @@ public void onCreate(Bundle savedInstanceState) {
 		
 		// Open a progress dialog while we're loading in the data
 		//int demo_number = resultCode - ProbSelectionActivity.DEMO_1 + 1;
-		int demo_number = ProbSelectionActivity.getProblemSelected() +1;
+		int demo_number = ProbSelectionActivity.getProblemSelected() + 1; // Check(ProbselectionActivity.java )
+		// it starts from 0 so we need to add 1. 
 
 		Log.d("DEBUG_TAG", "demo_number = " + demo_number);
 
