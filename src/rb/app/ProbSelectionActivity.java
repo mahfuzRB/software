@@ -57,7 +57,8 @@ public class ProbSelectionActivity extends Activity {
 	public static final int DEMO_10 = 9;
 	public static final int DEMO_11 = 10;
 	public static final int DEMO_12 = 11;
-	public static final int DOWNLOAD_FROM_SERVER = 12;
+	public static final int DEMO_13 = 12;   // Check (Modified for Demo 13)
+	public static final int DOWNLOAD_FROM_SERVER = 13;  //(Modified for Demo 13)
 	
 	private static int selected_problem = 0;
 	private static String directory_name;
@@ -209,12 +210,19 @@ public class ProbSelectionActivity extends Activity {
 		}
 		
 		private final Integer[] mThumbIds = {
-				R.drawable.sample_1, R.drawable.sample_2,
-				R.drawable.sample_3, R.drawable.sample_4,
-				R.drawable.sample_5, R.drawable.sample_6,
-				R.drawable.sample_7, R.drawable.sample_8,
-				R.drawable.sample_9, R.drawable.sample_10,
-				R.drawable.sample_11, R.drawable.sample_12,
+				R.drawable.sample_1, 
+				R.drawable.sample_2,
+				R.drawable.sample_3, 
+				R.drawable.sample_4,
+				R.drawable.sample_5, 
+				R.drawable.sample_6,
+				R.drawable.sample_7, 
+				R.drawable.sample_8,
+				R.drawable.sample_9, 
+				R.drawable.sample_10,
+				R.drawable.sample_11, 
+				R.drawable.sample_12,
+				R.drawable.sample_13,  // added for Demo13  
 				R.drawable.server_icon
 		};		
 		private final String[] mThumbCaptions = {
@@ -230,6 +238,7 @@ public class ProbSelectionActivity extends Activity {
 				"MICA",
 				"Navier-Stokes channel flow",
 				"Pac-man",
+				"TinyRB",                       // added for Demo13
 				"Download from server"
 			};		
 	}

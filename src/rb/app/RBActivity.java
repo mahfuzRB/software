@@ -253,7 +253,8 @@ public class RBActivity extends Activity {
 		case ProbSelectionActivity.DEMO_9:
 		case ProbSelectionActivity.DEMO_10:
 		case ProbSelectionActivity.DEMO_11:
-		case ProbSelectionActivity.DEMO_12:			
+		case ProbSelectionActivity.DEMO_12:
+	 	case ProbSelectionActivity.DEMO_13:  //check (Modified for Demo 13)	
 			// Open a progress dialog while we're loading in the data
 			//int demo_number = resultCode - ProbSelectionActivity.DEMO_1 + 1;
 			int demo_number = ProbSelectionActivity.getProblemSelected() +1;
